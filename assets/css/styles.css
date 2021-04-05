@@ -373,7 +373,7 @@ img {
     text-align: initial;
   }
   .about__img img {
-    width: 300px;
+    width: 470px;
   }
   .work__container {
     grid-template-columns: repeat(3, 1fr);
@@ -440,4 +440,8 @@ img {
   width: calc(100% - 10rem);
   margin-left: var(--mb-10);
   margin-right: var(--mb-10);
+}
+
+.abouts__subtitle {
+  margin-bottom: var(--mb-1);
 }
