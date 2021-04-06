@@ -108,11 +108,11 @@ img {
 .bd-grid {
   max-width: 1024px;
   display: grid;
-  grid-template-columns: 100%;
-  grid-column-gap: 2rem;
+  grid-template-columns: 10%;
+  grid-column-gap: 5rem;
   width: calc(100% - 2rem);
-  margin-left: var(--mb-2);
-  margin-right: var(--mb-2);
+  margin-left: var(--mb-300);
+  margin-right: var(--mb-300);
 }
 .l-header {
   width: 100%;
@@ -254,19 +254,19 @@ img {
 
 /* ===== work =====*/
 .work__container {
-  row-gap: 2rem;
+  row-gap: 5rem;
 }
 .work__img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   overflow: hidden;
 }
 .work__img img {
-  transition: 1s;
+  transition: 1.7s;
   cursor: pointer;
 }
 .work__img img:hover {
-  transform: scale(1.1);
+  transform: scale(1.06);
 }
 
 /* ===== CONTACT =====*/
