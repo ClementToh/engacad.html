@@ -106,11 +106,11 @@ img {
 
 /*===== LAYOUT =====*/
 .bd-grid {
-  max-width: 1024px;
+  max-width: 1026px;
   display: grid;
-  grid-template-columns: 10%;
+  grid-template-columns: 100%;
   grid-column-gap: 5rem;
-  width: calc(100% - 2rem);
+  width: calc(100% - 7rem);
   margin-left: var(--mb-300);
   margin-right: var(--mb-300);
 }
@@ -238,7 +238,7 @@ img {
 
 /* ===== ABOUT =====*/
 .about__container {
-  row-gap: 2rem;
+  row-gap: 90rem;
   text-align: center;
 }
 .about__subtitle {
